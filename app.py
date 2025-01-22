@@ -10,7 +10,7 @@ if st.button("Generate Cold Email"):
     if job_description:
         # API call to generate cold email using Gemini API
         api_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
-        api_key = "AIzaSyCdeNu1CmvNlME-BS-crzYCgv0Gwjxb4E8"  # User provided API Key
+        api_key = "****************-BS-************"  # User provided API Key
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{
